@@ -14,6 +14,8 @@ const AboutTheApp = () => {
           height: '30vh' }}
       />
       <Typography fontSize={17} align='center' fontWeight={'bold'}>
+      <p>This App was a collaborative effort between four developers in training as part of LaunchCode's LiftOff program, January-March 2022</p>
+      <b/>
        <p>Bunny and Kitty, being best friends,</p>
        <p>Together forever, the fun never ends,</p>
        <p>Solving mysteries, one hug at a time,</p>
