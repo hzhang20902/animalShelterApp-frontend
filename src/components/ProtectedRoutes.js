@@ -7,5 +7,5 @@ export default function ProtectedRoutes() {
   const { user } = useContext(UserContext);
 
   const isAuth = user.auth;
-  return isAuth ? <Outlet /> : <LoginPage unauthed={true} />;
+  return isAuth ? <Outlet /> : <LoginPage unauthed={false} />;
 }
