@@ -8,7 +8,7 @@ export default function GetCats() {
 
   useEffect(() => {
     async function getCats() {
-      const res = await axios.get("/animals/species/cat");
+      const res = await axios.get("https://shelterapp0.herokuapp.com/animals/species/cat");
       setCatsData(res.data);
     }
 

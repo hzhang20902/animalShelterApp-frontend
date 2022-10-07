@@ -8,7 +8,7 @@ export default function GetDogs() {
 
   useEffect(() => {
     async function getDogs() {
-      const res = await axios.get("/animals/species/dog");
+      const res = await axios.get("https://shelterapp0.herokuapp.com/animals/species/dog");
       setDogsData(res.data);
     }
 

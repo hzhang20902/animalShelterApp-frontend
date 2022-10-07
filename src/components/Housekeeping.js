@@ -88,7 +88,7 @@ export default function Housekeeping(props) {
     };
   
     const submitTasks = async () => {
-        let res = axios.post("/housekeeping", {
+        let res = axios.post("https://shelterapp0.herokuapp.com/housekeeping", {
           volunteerId:user.volunteerId,
           cleanGroomRoom: selections.cleanGroomRoom,
           emptyWashKongs: selections.emptyWashKongs,
